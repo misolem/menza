@@ -7,8 +7,13 @@ public class Test {
 	public static Double sabiranje(Double x, Double y) {
 		return x+y;
 	}
+
 	public static Double mnozenje(Double x, Double y) {
 		return x*y;
+	}
+	public static Double oduzimanje(Double x, Double y) {
+		return x-y;
+
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -29,12 +34,18 @@ public class Test {
 			Double rezultat = 0.00;
 			
 			switch(operation) {
-			  case "+":
+			    case "+":
 			    rezultat = sabiranje(prviBroj, drugiBroj);
 			    break;
-			  case "*":
-				    rezultat = mnozenje(prviBroj, drugiBroj);
-				    break;
+
+			    case "*":
+			    rezultat = mnozenje(prviBroj, drugiBroj);
+			    break;
+
+			    case "-":
+				rezultat = oduzimanje(prviBroj, drugiBroj);
+				break;
+
 			  default:
 			   }
 			
