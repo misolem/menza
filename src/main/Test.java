@@ -7,6 +7,9 @@ public class Test {
 	public static Double sabiranje(Double x, Double y) {
 		return x+y;
 	}
+	public static Double mnozenje(Double x, Double y) {
+		return x*y;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -29,6 +32,9 @@ public class Test {
 			  case "+":
 			    rezultat = sabiranje(prviBroj, drugiBroj);
 			    break;
+			  case "*":
+				    rezultat = mnozenje(prviBroj, drugiBroj);
+				    break;
 			  default:
 			   }
 			
