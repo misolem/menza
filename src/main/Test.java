@@ -31,6 +31,7 @@ public class Test {
 			    break;
 			  default:
 			   }
+			
 			System.out.println(rezultat);
 			
 	}
