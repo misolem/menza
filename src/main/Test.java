@@ -42,6 +42,8 @@ public class Test {
 			    rezultat = mnozenje(prviBroj, drugiBroj);
 			    break;
 
+			    
+			    
 			    case "-":
 				rezultat = oduzimanje(prviBroj, drugiBroj);
 				break;
