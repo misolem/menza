@@ -1,1 +1,2 @@
 # menza
+Opis projekta
